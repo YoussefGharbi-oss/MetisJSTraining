@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    var my_variable = 'hello world' 
+    let a = 5
+    const PI = 3.14
+    //Arithemtic operators 
+    let somme = 5+6 
+    let soustraction = 5-6
+    let multiplication = 5*6
+    let division = 20/5  
+    let modulo = 20%5 
+    console.log(somme)
+    console.log(soustraction)
+    console.log(multiplication)
+    console.log(division)
+    console.log(modulo)
+    //Comparison operators
+    let x = 12
+    let y = 15 
+    console.log(x==y)
+    console.log(x===y)
+    console.log(x>=y) 
+    console.log(x>y) 
+    console.log(x<=y)
+    console.log(x<y)
+    console.log(x!=y)
+    //Logical operators 
+    console.log((x>y )&&(x!=y))
+    console.log((x>y )||(x!=y))
+    console.log(!(x>y)) 
+    //Conditional statements
+    let age = 29
+
+    if(age>=18){
+        console.log("tnajem tvoty Jawek bahy")
+    }else {
+        console.log("tnajemch Tvoty !!!")
+    }
+    if(age>=18){
+        console.log("dhaman abawy ")
+    }
+    else if(age>=16) {
+        cosnole.log("tnajem tvoty")
+        
+    }
+    else{
+        console.log("tnajemch Tvoty !!!")
+    }
+    //ternary operator 
+  let num = 30 
+  if((num%3===0) && (num%5 == 0)) {
+        console.log("fizzbuzz")
+    }
+    else if(num%3===0){
+        console.log("fizz")
+    }
+    else if(num%5===0){
+        console.log("buzz")
+    }
+    else{
+        console.log(num)
+  }
+  /*let result = num%5==0 && num%3==0 ? "fizzbuzz" ? num%3==0 : "fizz" ? num%5==0 : "buzz" :"wrong"
+  console.log(result)*/
+  for(let i = 0 ; i < 100 ; i++) {
+    console.log("Metis JE !! ")
+  }
+  let multiply = 5  
+  for(let i=1 ; i<=10 ; i++){
+    console.log(multiply*i)
+  }
+  let mohsen = 0 
+  while(mohsen<100) {
+    console.log("foulen ben foulen !! ")
+    mohsen++
+  } 
+  let fact = 1 
+  for(let i=2 ; i<=5 ; i++)
+  {
+    fact = fact*i
+  }
+  console.log(fact)
+  let greet = "hello" 
+  console.log(greet.concat(" world !!"))
+  console.log(greet.slice(0,3))
+  console.log(greet.length)
+  console.log(greet.replace('hel' , "yes"))
+  console.log(greet.split(""))
+
+  let myList  = ["The Dark knight" , "Mission Impossible" , "Django"] 
+  myList.push("the godfather") 
+  console.log(myList)
+  myList.pop()
+  console.log(myList)
+  myList.shift() 
+  myList.unshift("killers of the flower moon !! ")
+  console.log(myList)
+  console.log(myList.indexOf("Mission Impossible"))
+  for(let element=0 ; element<myList.length; element++) {
+    console.log(myList[element])
+  }
+
+  
+
+ 
+
+
+  
+
+
+
+
+
+
+
+</script>
+</html>
